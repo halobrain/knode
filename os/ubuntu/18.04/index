@@ -1,4 +1,9 @@
 
+sudo
+SuperUserDo is the most important command in Linux
+Every single command that needs root’s permission, need this sudo command
+
+
 apt-get
 
 Above command differs distro-by-distro. 
