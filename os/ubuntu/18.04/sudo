@@ -11,3 +11,21 @@ Above command immediately shuts down the system.
 
 sudo poweroff
 Above command asks for a password and then shut down the system.
+
+
+
+
+
+
+Difference Between sudo and su
+su command is used to login as root user on the other side sudo command just runs given command as root in the current user sessions. While running sudo the user name will be also logged but with the sudo command just the root user name will be logged.
+
+
+The major difference between sudo -i and sudo -s is:
+    • sudo -i gives you the root environment, i.e. your ~/.bashrc is ignored. 
+    • sudo -s gives you the user's environment, so your ~/.bashrc is respected. 
+
+
+Though sudo -s is convenient for giving you the environment that you are familiar with, I recommend the use of sudo -i for two reasons:
+    1. The visual reminder that you are in a 'root' session. 
+    2. The root environment is far less likely to be poisoned with malware, such as a rogue line in .bashrc. 
