@@ -1,3 +1,34 @@
+
+
+ls
+(list)
+terminal will show you all the files and folders of the directory that you’re working in
+
+cd
+Changing directory (cd)
+If you want to go up just do it by giving double dots (..) as the parameter.
+
+mkdir
+
+cp
+(copy-and-paste)
+determine the file you want to copy and type the destination location to paste the file
+*If you’re copying files into the directory that requires root permission for any new file, then you’ll need to use sudo command.   
+
+rm
+rm is a command to remove your file or even your directory.
+-f if the file need root permission to be removed. 
+-r to do recursive removal to remove your folder. 
+
+grep
+To find a file but you don’t remember its exact location or the path.
+grep test /home/
+
+cat
+It will show you the text inside your file.
+
+
+
 Shutdown -h now
 This command will immediately shut down the system. 
 
@@ -8,11 +39,9 @@ It will shut down the system after the specified time.
 shutdown -c
 To cancel this shutdown command
 
-
 shutdown –h 20:3
 Shutdown At A Specified Time
 example - If you want to shut down at a specified time like 8:03 pm type command
-
 
 shutdown --help
 For more information about
