@@ -7,7 +7,7 @@ Every single command that needs root’s permission, need this sudo command
 apt-get
 
 Above command differs distro-by-distro. 
-In Debian based Linux distributions, to install, remove and upgrade any package we’ve Advanced Packaging Tool (APT) package manager.
+In Debian based Linux distributions, to install, remove and upgrade any package we have Advanced Packaging Tool (APT) package manager.
 The apt-get command will help you install the software you need to run in your Linux. 
 It is a powerful command-line tool which can perform installation, upgrade, and even removing your software.
 
