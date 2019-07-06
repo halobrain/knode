@@ -12,3 +12,23 @@ Above command immediately shuts down the system.
 
 sudo poweroff
 Above command asks for a password and then shut down the system.
+
+
+Shutdown -h now
+This command will immediately shut down the system. 
+
+shutdown -h (time in minutes)
+if you want to shut down the system after a certain time you can specify time instead of ‘now’. 
+It will shut down the system after the specified time.
+
+shutdown -c
+To cancel this shutdown command
+
+
+shutdown –h 20:3
+Shutdown At A Specified Time
+example - If you want to shut down at a specified time like 8:03 pm type command
+
+
+shutdown --help
+For more information about
