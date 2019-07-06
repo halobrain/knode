@@ -2,3 +2,19 @@
 sudo
 SuperUserDo is the most important command in Linux
 Every single command that needs root’s permission, need this sudo command
+
+
+sudo apt-get update
+sudo apt update
+
+
+
+sudo apt autoclean   
+sudo apt autoremove 
+
+
+sudo power off 
+Above command immediately shuts down the system.
+
+sudo poweroff
+Above command asks for a password and then shut down the system.
