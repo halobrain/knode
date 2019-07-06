@@ -1,0 +1,9 @@
+
+apt-get
+
+Above command differs distro-by-distro. 
+In Debian based Linux distributions, to install, remove and upgrade any package we’ve Advanced Packaging Tool (APT) package manager.
+The apt-get command will help you install the software you need to run in your Linux. 
+It is a powerful command-line tool which can perform installation, upgrade, and even removing your software.
+
+In other distributions, such as Fedora, Centos there are different package managers. Fedora used to have yum but now it has dnf.
