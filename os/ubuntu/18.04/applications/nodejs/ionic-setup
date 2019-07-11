@@ -1,0 +1,148 @@
+
+
+
+$ mkdir sample
+$ cd sample/
+
+/sample$ ionic start demo
+
+Let's pick the perfect starter template! 💪
+
+Starter templates are ready-to-go Ionic apps that come packed with everything you need to build your app. To bypass this
+prompt next time, supply template, the second argument to ionic start.
+
+? Starter template: sidemenu
+✔ Preparing directory ./demo - done!																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+✔ Downloading and extracting sidemenu starter - done!
+
+Installing dependencies may take several minutes.
+
+  ──────────────────────────────────────────────────────────────────────────────
+
+         Ionic Advisory, tailored solutions and expert services by Ionic
+
+                             Go to market faster 🏆
+                    Real-time troubleshooting and guidance 💁
+        Custom training, best practices, code and architecture reviews 🔎
+      Customized strategies for every phase of the development lifecycle 🔮
+
+                        👉  https://ion.link/advisory  👈
+
+  ──────────────────────────────────────────────────────────────────────────────
+
+
+> npm i
+Unhandled rejection Error: EACCES: permission denied, open '/home/star/.npm/_cacache/index-v5/3b/bf/a5aed308943a348b895cd9d32191cf63d204e13917a9b6b1e402c36df55e'
+
+npm ERR! cb() never called!
+
+npm ERR! This is an error with npm itself. Please report this error at:
+npm ERR!     <https://npm.community>
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/star/.npm/_logs/2019-07-08T14_36_16_555Z-debug.log
+[ERROR] An error occurred while running subprocess npm.
+        
+        npm i exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.
+
+/sample$ ionic -v
+5.2.1
+/sample$ ionic info
+[WARN] You are not in an Ionic project directory. Project context may be missing.
+
+Ionic:
+
+   Ionic CLI : 5.2.1
+
+Utility:
+
+   cordova-res : not installed
+   native-run  : not installed
+
+System:
+
+   NodeJS : v10.16.0
+   npm    : 6.9.0
+   OS     : Linux 4.18
+
+/sample$ ls -l
+total 4
+drwxr-xr-x 5 star star 4096 Jul  8 20:05 demo
+/sample$ cd ..
+
+$ chmod 777 sample/
+
+$ cd sample/
+:~/sample$ ionic start demo
+
+Let's pick the perfect starter template! 💪
+
+Starter templates are ready-to-go Ionic apps that come packed with everything you need to build your app. To bypass this
+prompt next time, supply template, the second argument to ionic start.
+
+? Starter template: sidemenu
+? ./demo exists. Overwrite? Yes
+✔ Preparing directory ./demo - done!
+✔ Downloading and extracting sidemenu starter - done!
+
+Installing dependencies may take several minutes.
+
+  ──────────────────────────────────────────────────────────────────────────────
+
+         Ionic Advisory, tailored solutions and expert services by Ionic
+
+                             Go to market faster 🏆
+                    Real-time troubleshooting and guidance 💁
+        Custom training, best practices, code and architecture reviews 🔎
+      Customized strategies for every phase of the development lifecycle 🔮
+
+                        👉  https://ion.link/advisory  👈
+
+  ──────────────────────────────────────────────────────────────────────────────
+
+
+> npm i
+
+> node-sass@4.12.0 install /home/star/sample/demo/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.12.0/linux-x64-64_binding.node
+Download complete .] - :
+Binary saved to /home/star/sample/demo/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Caching binary to /home/star/.npm/node-sass/4.12.0/linux-x64-64_binding.node
+
+> core-js@2.6.9 postinstall /home/star/sample/demo/node_modules/core-js
+> node scripts/postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+> https://opencollective.com/core-js 
+> https://www.patreon.com/zloirock 
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> node-sass@4.12.0 postinstall /home/star/sample/demo/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /home/star/sample/demo/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Testing binary
+Binary is fine
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 1121 packages from 1050 contributors and audited 54002 packages in 82.683s
+found 0 vulnerabilities
+
+
+[INFO] Next Steps:
+       
+       - Go to your newly created project: cd ./demo
+       - Run ionic serve within the app directory to see your app
+       - Build features and components: https://ion.link/scaffolding-docs
+       - Get Ionic DevApp for easy device testing: https://ion.link/devapp
+~/sample$ 
