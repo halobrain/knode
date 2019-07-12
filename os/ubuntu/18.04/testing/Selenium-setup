@@ -11,6 +11,7 @@ https://anaconda.org/conda-forge/geckodriver
 
 pip install selenium==2.53.6
 
+whereis firefox
 
 from selenium import webdriver
 
