@@ -1,7 +1,7 @@
 
 Default installtion of nodejs in ubunut 18.04
 
-sudo apt-get install nodejs
+$sudo apt-get install nodejs
 
 $ node -v
 v8.10.0
