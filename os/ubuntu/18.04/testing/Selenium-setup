@@ -2,3 +2,22 @@
 
 https://github.com/mozilla/geckodriver/releases
 
+
+
+https://pypi.org/project/selenium/
+
+
+https://anaconda.org/conda-forge/geckodriver
+
+pip install selenium==2.53.6
+
+
+from selenium import webdriver
+
+path = r'C:\yourgeckodriverpath\geckodriver.exe'
+driver = webdriver.Firefox(executable_path=path)
+
+
+
+
+
