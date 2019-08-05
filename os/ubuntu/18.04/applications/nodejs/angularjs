@@ -10,6 +10,10 @@ ng serve
 
 http://localhost:4200/ 
 
+npm install -g typescript
+
+tsc --version
+
 
 
 
