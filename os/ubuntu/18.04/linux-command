@@ -20,6 +20,8 @@ rm is a command to remove your file or even your directory.
 -f if the file need root permission to be removed. 
 -r to do recursive removal to remove your folder. 
 
+$ rm -rf letters/
+
 grep
 To find a file but you don’t remember its exact location or the path.
 grep test /home/
