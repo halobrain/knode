@@ -5,7 +5,7 @@ ng new hello-world
 
 code editor - visualstudio
 
-ng serve
+ng serve   (convert all typescripts code into java scritps code)
 ** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
 
 http://localhost:4200/ 
@@ -14,7 +14,7 @@ npm install -g typescript
 
 tsc --version
 
-
+tsc main.ts
 
 
 
