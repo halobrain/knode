@@ -11,10 +11,8 @@ ng serve   (convert all typescripts code into java scritps code)
 http://localhost:4200/ 
 
 npm install -g typescript
-
 tsc --version
-
-tsc main.ts
+tsc main.ts  (It will generate main.js java script file)
 
 
 
