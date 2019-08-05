@@ -3,6 +3,14 @@ ng --version
 
 ng new hello-world
 
+code editor - visualstudio
+
+ng serve
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+http://localhost:4200/ 
+
+
 
 
 
