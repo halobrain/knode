@@ -1,14 +1,15 @@
+sudo npm  install -g @angular/cli
+ng --version
+
+ng new hello-world
+
+
 
 
 
 npm install
-
 npm start
-
 ng serve 
-
 ** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
-
 ng build
-
 ng build  --base-href /halobrain/
