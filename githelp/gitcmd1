@@ -1,0 +1,39 @@
+jdf@jdf105:~/gitdemo/knode$ git branch
+* master
+jdf@jdf105:~/gitdemo/knode$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   githelp/gitcmd
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jdf@jdf105:~/gitdemo/knode$ git add ./
+jdf@jdf105:~/gitdemo/knode$ git commit -m "updating 1 files"
+[master 54a16a4] updating 1 files
+ 1 file changed, 43 insertions(+)
+jdf@jdf105:~/gitdemo/knode$ git push origin master
+Username for 'https://github.com': contact@halobrain.com
+Password for 'https://contact@halobrain.com@github.com': 
+
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 859 bytes | 859.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/halobrain/knode.git
+   73c8e43..54a16a4  master -> master
+jdf@jdf105:~/gitdemo/knode$ 
+jdf@jdf105:~/gitdemo/knode$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+jdf@jdf105:~/gitdemo/knode$ git pull 
+Already up to date.
+
