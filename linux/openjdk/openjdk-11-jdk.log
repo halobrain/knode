@@ -1,4 +1,5 @@
-$ sudo apt-get install openjdk-11-jdk
+
+
 [sudo] password for hb: 
 Reading package lists... Done
 Building dependency tree       
