@@ -80,6 +80,49 @@ To https://github.com/halobrain/knode.git
 
 
 $git status
+On branch hb100
+
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
 
 
+$ git branch 
+  hb100
+* master
+
+$ git pull 
+remote: Enumerating objects: 2, done.
+remote: Counting objects: 100% (2/2), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (2/2), done.
+From https://github.com/halobrain/knode
+   ddda5fc..73c8e43  master     -> origin/master
+Updating ddda5fc..73c8e43
+Fast-forward
+ githelp/gitcmd                                                                  |  85 +++++++++++++++++++++++++++++++++++
+ linux/openjdk/openjdk-11-jdk                                                    |   1 +
+ os/ubuntu/18.04/applications/openjdk-11-jdk => linux/openjdk/openjdk-11-jdk.log |   3 +-
+ {os/ubuntu => linux}/remotedesktopsharing/remmina                               |   0
+ linux/samba/samba                                                               |   2 +
+ linux/samba/samba.log                                                           | 129 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ {os/ubuntu => linux}/system/dconf-editor                                        |   0
+ {os/ubuntu/18.04 => linux/system}/sudo                                          |   0
+ 8 files changed, 219 insertions(+), 1 deletion(-)
+ create mode 100644 githelp/gitcmd
+ create mode 100644 linux/openjdk/openjdk-11-jdk
+ rename os/ubuntu/18.04/applications/openjdk-11-jdk => linux/openjdk/openjdk-11-jdk.log (99%)
+ rename {os/ubuntu => linux}/remotedesktopsharing/remmina (100%)
+ create mode 100644 linux/samba/samba
+ create mode 100644 linux/samba/samba.log
+ rename {os/ubuntu => linux}/system/dconf-editor (100%)
+ rename {os/ubuntu/18.04 => linux/system}/sudo (100%)
+
+
+$ git branch -d hb100
+Deleted branch hb100 (was 2109213).
+
+$ git branch
+* master
 
