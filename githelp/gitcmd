@@ -29,3 +29,57 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
+
+# To add files and folder into git
+ git add ./
+
+
+# To commit all changes to git
+ git commit -m "arranging the files and folders"
+Note - Before doing commit, we need to set user.email and user.name
+*** Please tell me who you are.
+Run
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+
+$  git config --global user.email "abc@halobrain.com"
+$ git config --global user.name "abc"
+
+
+$ git commit -m "arranging the files and folders"
+[hb100 91b0286] arranging the files and folders
+ 8 files changed, 165 insertions(+), 1 deletion(-)
+ create mode 100644 githelp/gitcmd
+ create mode 100644 linux/openjdk/openjdk-11-jdk
+ rename os/ubuntu/18.04/applications/openjdk-11-jdk => linux/openjdk/openjdk-11-jdk.log (99%)
+ rename {os/ubuntu => linux}/remotedesktopsharing/remmina (100%)
+ create mode 100644 linux/samba/samba
+ create mode 100644 linux/samba/samba.log
+ rename {os/ubuntu => linux}/system/dconf-editor (100%)
+ rename {os/ubuntu/18.04 => linux/system}/sudo (100%)
+
+
+$ git push origin hb100
+Username for 'https://github.com': contact@halobrain.com
+Password for 'https://contact@halobrain.com@github.com': 
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (16/16), 7.04 KiB | 1.76 MiB/s, done.
+Total 16 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'hb100' on GitHub by visiting:
+remote:      https://github.com/halobrain/knode/pull/new/hb100
+remote: 
+To https://github.com/halobrain/knode.git
+ * [new branch]      hb100 -> hb100
+
+
+$git status
+
+
+
