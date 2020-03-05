@@ -1,0 +1,17 @@
+
+ mkdir localknode
+cd localknode/
+
+git clone https://github.com/halobrain/knode.git
+
+star@sunmoon:~/githalobrain/localknode/knode$ git branch
+* master
+
+git config --global user.email "contact@halobrain.com"
+git config --global user.name "halobrain"
+
+git config --global user.name "halobrain"
+git config --global user.email "halobraindotcom@gmail.com"
+
+git status 
+
