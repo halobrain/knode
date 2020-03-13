@@ -1,3 +1,9 @@
+
+###
+sudo
+SuperUserDo is the most important command in Linux
+Every single command that needs root’s permission, need this sudo command
+###
 sudo apt-get update
 sudo apt update
 
@@ -18,7 +24,10 @@ Above command asks for a password and then shut down the system.
 
 
 Difference Between sudo and su
-su command is used to login as root user on the other side sudo command just runs given command as root in the current user sessions. While running sudo the user name will be also logged but with the sudo command just the root user name will be logged.
+su command is used to login as root user on the other side sudo command just runs 
+given command as root in the current user sessions. 
+While running sudo the user name will be also logged but with the sudo command just the root user name 
+will be logged.
 
 
 The major difference between sudo -i and sudo -s is:
