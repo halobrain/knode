@@ -1,0 +1,65 @@
+$ sudo apt install  openjdk-8-jdk
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libc-ares2 libhttp-parser2.7.1 libllvm7 libuv1 nodejs-doc
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless
+Suggested packages:
+  openjdk-8-demo openjdk-8-source visualvm icedtea-8-plugin fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei fonts-wqy-zenhei
+The following NEW packages will be installed:
+  openjdk-8-jdk openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless
+0 upgraded, 4 newly installed, 0 to remove and 16 not upgraded.
+Need to get 37.5 MB of archives.
+After this operation, 142 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 openjdk-8-jre-headless amd64 8u222-b10-1ubuntu1~18.04.1 [27.4 MB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 openjdk-8-jre amd64 8u222-b10-1ubuntu1~18.04.1 [69.3 kB]                   
+Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 openjdk-8-jdk-headless amd64 8u222-b10-1ubuntu1~18.04.1 [8,267 kB]         
+Get:4 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 openjdk-8-jdk amd64 8u222-b10-1ubuntu1~18.04.1 [1,756 kB]                  
+Fetched 37.5 MB in 25s (1,506 kB/s)                                                                                                             
+Selecting previously unselected package openjdk-8-jre-headless:amd64.
+(Reading database ... 203651 files and directories currently installed.)
+Preparing to unpack .../openjdk-8-jre-headless_8u222-b10-1ubuntu1~18.04.1_amd64.deb ...
+Unpacking openjdk-8-jre-headless:amd64 (8u222-b10-1ubuntu1~18.04.1) ...
+Selecting previously unselected package openjdk-8-jre:amd64.
+Preparing to unpack .../openjdk-8-jre_8u222-b10-1ubuntu1~18.04.1_amd64.deb ...
+Unpacking openjdk-8-jre:amd64 (8u222-b10-1ubuntu1~18.04.1) ...
+Selecting previously unselected package openjdk-8-jdk-headless:amd64.
+Preparing to unpack .../openjdk-8-jdk-headless_8u222-b10-1ubuntu1~18.04.1_amd64.deb ...
+Unpacking openjdk-8-jdk-headless:amd64 (8u222-b10-1ubuntu1~18.04.1) ...
+Selecting previously unselected package openjdk-8-jdk:amd64.
+Preparing to unpack .../openjdk-8-jdk_8u222-b10-1ubuntu1~18.04.1_amd64.deb ...
+Unpacking openjdk-8-jdk:amd64 (8u222-b10-1ubuntu1~18.04.1) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Setting up openjdk-8-jre-headless:amd64 (8u222-b10-1ubuntu1~18.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/hsdb to provide /usr/bin/hsdb (hsdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/clhsdb to provide /usr/bin/clhsdb (clhsdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/orbd to provide /usr/bin/orbd (orbd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/servertool to provide /usr/bin/servertool (servertool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/tnameserv to provide /usr/bin/tnameserv (tnameserv) in auto mode
+Setting up openjdk-8-jdk-headless:amd64 (8u222-b10-1ubuntu1~18.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/idlj to provide /usr/bin/idlj (idlj) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/wsimport to provide /usr/bin/wsimport (wsimport) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jsadebugd to provide /usr/bin/jsadebugd (jsadebugd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/native2ascii to provide /usr/bin/native2ascii (native2ascii) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javah to provide /usr/bin/javah (javah) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jhat to provide /usr/bin/jhat (jhat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/extcheck to provide /usr/bin/extcheck (extcheck) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/schemagen to provide /usr/bin/schemagen (schemagen) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/xjc to provide /usr/bin/xjc (xjc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/wsgen to provide /usr/bin/wsgen (wsgen) in auto mode
+Setting up openjdk-8-jre:amd64 (8u222-b10-1ubuntu1~18.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/policytool to provide /usr/bin/policytool (policytool) in auto mode
+Setting up openjdk-8-jdk:amd64 (8u222-b10-1ubuntu1~18.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/appletviewer to provide /usr/bin/appletviewer (appletviewer) in auto mode
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+
+$ 
+

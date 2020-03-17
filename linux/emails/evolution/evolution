@@ -1,0 +1,10 @@
+To convert *msg microsoft email to evolution readalbe file
+
+sudo apt install evolution
+
+sudo apt install libemail-outlook-message-perl
+
+msgconvert *.msg
+
+
+

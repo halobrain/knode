@@ -1,0 +1,15 @@
+
+
+    First you need to install unrar:
+
+    sudo apt-get install unrar
+
+    If you want to unpack all files within the .rar files in the same directory:
+
+    unrar e -r /home/work/software/myfile.rar
+
+    if you want to unpack the files in full path:
+
+    unrar x -r /home/work/software/myfile.rar
+
+

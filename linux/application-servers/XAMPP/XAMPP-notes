@@ -1,0 +1,70 @@
+XAMPP
+
+To start XAMPP simply call this command:
+sudo /opt/lampp/lampp start
+
+Starting XAMPP 1.8.2...
+LAMPP: Starting Apache...
+LAMPP: Starting MySQL...
+LAMPP started.
+Ready. Apache and MySQL are running.
+
+
+Graphical tool that you can use to manage your servers easily. You can start this
+tool with the following commands:
+
+cd /opt/lampp
+sudo ./manager-linux.run (or manager-linux-x64.run)
+
+
+
+
+https://www.apachefriends.org/index.html
+
+Move to the Downloads folder by using the following command:
+
+$ cd /home/[username]/Downloads
+
+
+The installation package you downloaded needs to be made executable before it can be
+used further. Run the following command for this purpose:
+
+$ chmod 755 [package name]
+$ chmod 755 xampp-linux-x64-7.2.10-0-installer.run
+
+Launch the Setup Wizard
+$ sudo ./[package name]
+sudo ./xampp-linux-7.2.10-0-installer.run
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

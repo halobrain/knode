@@ -1,6 +1,0 @@
-# samba
-sudo apt install samba
-
-In computer networking, Server Message Block (SMB), one version of which was also known as 
-Common Internet File System (CIFS /sɪfs/),[1][2] is a network communication protocol for providing shared access to 
-files, printers, and serial ports between nodes on a network.

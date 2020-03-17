@@ -1,0 +1,7 @@
+# To delete branch even without merge with branch and master
+git branch -D samone
+
+# To delete branch only if fully merged with branch and 
+#master and no difference between branch and master
+git branch -d samone
+

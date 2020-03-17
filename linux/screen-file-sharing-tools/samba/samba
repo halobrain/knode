@@ -1,0 +1,20 @@
+In computer networking, Server Message Block (SMB), one version of which was also known as 
+Common Internet File System (CIFS /sɪfs/),[1][2] is a network communication protocol for providing shared access to 
+files, printers, and serial ports between nodes on a network.
+
+A Samba file server enables file sharing across different operating systems over a network. 
+It lets you access your desktop files from a laptop and share files with Windows and macOS users.
+
+
+
+To install Samba, we run:
+
+sudo apt update
+sudo apt install samba
+
+
+
+https://ubuntu.com/tutorials/install-and-configure-samba#1-overview
+
+
+

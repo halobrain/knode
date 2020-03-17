@@ -1,0 +1,30 @@
+$ sudo apt install libgtkglext1
+[sudo] password for star: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libpangox-1.0-0
+The following NEW packages will be installed:
+  libgtkglext1 libpangox-1.0-0
+0 upgraded, 2 newly installed, 0 to remove and 10 not upgraded.
+Need to get 116 kB of archives.
+After this operation, 582 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+Get:1 http://archive.ubuntu.com/ubuntu bionic/universe amd64 libpangox-1.0-0 amd64 0.0.2-5 [41.7 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic/universe amd64 libgtkglext1 amd64 1.2.0-8 [73.9 kB]
+Fetched 116 kB in 1s (111 kB/s)        
+Selecting previously unselected package libpangox-1.0-0:amd64.
+(Reading database ... 162340 files and directories currently installed.)
+Preparing to unpack .../libpangox-1.0-0_0.0.2-5_amd64.deb ...
+Unpacking libpangox-1.0-0:amd64 (0.0.2-5) ...
+Selecting previously unselected package libgtkglext1:amd64.
+Preparing to unpack .../libgtkglext1_1.2.0-8_amd64.deb ...
+Unpacking libgtkglext1:amd64 (1.2.0-8) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up libpangox-1.0-0:amd64 (0.0.2-5) ...
+Setting up libgtkglext1:amd64 (1.2.0-8) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+
+
+$

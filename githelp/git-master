@@ -7,9 +7,14 @@ git clone https://github.com/halobrain/knode.git
 star@sunmoon:~/githalobrain/localknode/knode$ git branch
 * master
 
+# To pull all latest file from git server
+git pull
+
+
 git config --global user.email "contact@halobrain.com"
 git config --global user.name "halobrain"
 
+###########################################################
 git status
   
 On branch master
@@ -68,6 +73,17 @@ $ git branch
 * master
 
 
+
+##### in case of confilt
+
+git merge --abort
+git reset --merge
+
+git pull
+
+
+#### both are same command
+staging is euqal to add ./
 
 
 

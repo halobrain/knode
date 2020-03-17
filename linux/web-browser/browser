@@ -1,3 +1,16 @@
 
 #chromium
 sudo apt install chromium-browser
+
+
+
+# download google-chrome-stable_current_amd64.deb from google web page
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+During the installation process, the official Google repository will be added to your system.
+use the cat command to verify the contents:
+
+$ cat /etc/apt/sources.list.d/google-chrome.list
+### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+# You may comment out this entry, but any other modifications may be lost.
+deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main

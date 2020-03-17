@@ -8,3 +8,15 @@ It is a powerful command-line tool which can perform installation, upgrade, and 
 
 In other distributions, such as Fedora, Centos there are different package managers. 
 Fedora used to have yum but now it has dnf.
+
+
+
+
+Installing the Snap Package
+
+Open the Ubuntu command line, the Terminal, either through the Dash or through the
+Ctrl+Alt+T shortcut.
+In order to install a snap package, you �rst need to have snap facility enabled on your
+system. Mostly snap is available on the latest releases of Ubuntu, however, for older
+versions, you could use the following command in order to install snap:
+$ sudo apt install snapd

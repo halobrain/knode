@@ -37,4 +37,14 @@ The major difference between sudo -i and sudo -s is:
 
 Though sudo -s is convenient for giving you the environment that you are familiar with, I recommend the use of sudo -i for two reasons:
     1. The visual reminder that you are in a 'root' session. 
-    2. The root environment is far less likely to be poisoned with malware, such as a rogue line in .bashrc. 
+    2. The root environment is far less likely to be poisoned with malware, such as a rogue line in .bashrc.
+
+
+
+
+
+Conventions
+
+    # - requires given linux commands to be executed with root privileges either directly as a root user or by use of sudo command
+    $ - requires given linux commands to be executed as a regular non-privileged user
+ 
