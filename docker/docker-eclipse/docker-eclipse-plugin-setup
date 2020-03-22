@@ -1,0 +1,24 @@
+Docker plug-in setup in eclipse
+
+Go to Eclipse Market place
+
+select "Docker Editor 10.0" - CLick install it.
+
+<<< Do not try below plug-in, it will not install properly >>>
+"Eclisep Docker Tooling 4.2.0.201903121920" 
+
+
+Then go to 
+
+"Help" -> "Install New Software" (New windows will pop up)
+
+In the "Work with:" Text box [https://download.eclipse.org/linuxtools/update-2019-03-docker]  (type this command)
+Below you can see list of check box items, Please select all and as usual Next ---> next and finish.
+
+Rest start the eclipse.
+
+Go to "Windows" --> "Show View" --> in text box type docker (you will see all Docker Related info) select "Docker Explorer"
+
+
+
+

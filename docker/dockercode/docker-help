@@ -1,0 +1,26 @@
+#See 'docker --help'.
+
+docker system prune
+docker system prune --volumes
+
+docker container ls -a
+
+docker container rm cc3f2ff51cab
+
+
+docker image ls
+docker image rm 75835a67d134
+
+
+
+#Remove all unused images
+docker image prune -a
+
+
+
+docker stop container_id
+docker kill container_id
+
+
+# To log into docker container
+docker run -it busybox /bin/sh

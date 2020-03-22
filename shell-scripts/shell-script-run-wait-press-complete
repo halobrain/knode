@@ -1,0 +1,27 @@
+# bash/sh
+
+echo "Docker set for dev environment"
+
+read -p "Press ENTER to continue"
+
+read -r -p "Wait 5 seconds or press any key to continue immediately" -t 5 -n 1 -s
+
+echo "now sleeping for 5s. . . . "
+sleep 5s
+
+echo "\n Docker setup completed"
+
+#    sleep 5s
+#    s for seconds (the default)
+#    m for minutes.
+#    h for hours.
+#    d for days.
+
+#You can use the command wait PID to wait for a process to end.
+#You can also retrieve the PID of the last command with $!
+#command1 & #run command1 in background
+#PID=$! #catch the last PID, here from command1
+#command2 #run command2 while command1 is running in background
+#wait $PID #wait for command1, in background, to end
+#command3 #execute once command1 ended
+
