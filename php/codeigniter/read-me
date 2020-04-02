@@ -1,0 +1,12 @@
+#1
+extract CodeIgniter-3.1.6.zip 
+
+#2
+cp CodeIgniter-3.1.6.zip under lampp/htdocs
+
+#3
+chmod -R 777 CodeIgniter-3.1.6
+
+#4
+http://localhost/CodeIgniter/index.php
+

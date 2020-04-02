@@ -1,0 +1,7 @@
+star@sunmoon:~/Downloads$ pip3 install virtualenv
+Collecting virtualenv
+  Downloading https://files.pythonhosted.org/packages/ca/ee/8375c01412abe6ff462ec80970e6bb1c4308724d4366d7519627c98691ab/virtualenv-16.6.0-py2.py3-none-any.whl (2.0MB)
+    100% |████████████████████████████████| 2.0MB 392kB/s 
+Installing collected packages: virtualenv
+Successfully installed virtualenv-16.6.0
+

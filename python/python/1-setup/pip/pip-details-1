@@ -1,0 +1,56 @@
+#### how to uninstall pip --->>> pip uninstall pip  #########
+
+ sudo pip uninstall pip
+[sudo] password for ssn: 
+The directory '/home/ssn/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Uninstalling pip-9.0.3:
+  /usr/bin/pip
+  /usr/bin/pip3
+  /usr/local/bin/pip
+  /usr/local/bin/pip3
+  /usr/local/bin/pip3.5
+  /usr/local/lib/python3.5/dist-packages/pip-9.0.3.dist-info/DESCRIPTION.rst
+  /usr/local/lib/python3.5/dist-packages/pip-9.0.3.dist-info/INSTALLER
+
+
+export PATH=/usr/local/bin/pip2.7:$PATH
+
+
+
+ssn@ssnone:~$ pip uninstall pip
+Uninstalling pip-9.0.3:
+  /usr/bin/pip
+  /usr/bin/pip3
+  /usr/local/bin/pip
+  /usr/local/bin/pip3
+  /usr/local/bin/pip3.5
+
+
+/usr/bin/pip 
+/usr/local/bin/pip 
+/usr/local/bin/pip2.7 
+/usr/local/bin/pip3.5 
+/usr/share/man/man1/pip.1.gz
+
+
+
+
+$ pip3
+The program 'pip3' is currently not installed. You can install it by typing:
+sudo apt install python3-pip
+
+
+ssn@ssnone:~$ whereis pip
+pip:
+ssn@ssnone:~$ sudo apt-get install python-pip
+[sudo] password for ssn: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libpython-all-dev python-all python-all-dev python-wheel
+The following NEW packages will be installed:
+  libpython-all-dev python-all python-all-dev python-pip python-wheel
+
+
+

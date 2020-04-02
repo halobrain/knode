@@ -1,0 +1,28 @@
+(pyvenv) star@sunmoon:~/hbpython/hblab/pyvenv/bin$ python -m pip install --upgrade pip setuptools wheel
+Cache entry deserialization failed, entry ignored
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/5c/e0/be401c003291b56efc55aeba6a80ab790d3d4cece2778288d65323009420/pip-19.1.1-py2.py3-none-any.whl (1.4MB)
+    100% |████████████████████████████████| 1.4MB 642kB/s 
+Cache entry deserialization failed, entry ignored
+Collecting setuptools
+  Downloading https://files.pythonhosted.org/packages/ec/51/f45cea425fd5cb0b0380f5b0f048ebc1da5b417e48d304838c02d6288a1e/setuptools-41.0.1-py2.py3-none-any.whl (575kB)
+    100% |████████████████████████████████| 583kB 935kB/s 
+Collecting wheel
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/bb/10/44230dd6bf3563b8f227dbf344c908d412ad2ff48066476672f3a72e174e/wheel-0.33.4-py2.py3-none-any.whl
+Installing collected packages: pip, setuptools, wheel
+  Found existing installation: pip 9.0.1
+    Uninstalling pip-9.0.1:
+      Successfully uninstalled pip-9.0.1
+  Found existing installation: setuptools 39.0.1
+    Uninstalling setuptools-39.0.1:
+      Successfully uninstalled setuptools-39.0.1
+Successfully installed pip-19.1.1 setuptools-41.0.1 wheel-0.33.4
+(pyvenv) star@sunmoon:~/hbpython/hblab/pyvenv/bin$ pip list
+Package       Version
+------------- -------
+pip           19.1.1 
+pkg-resources 0.0.0  
+setuptools    41.0.1 
+wheel         0.33.4 
+

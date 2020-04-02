@@ -1,0 +1,30 @@
+star@sunmoon:~/hbpyqt$ sudo apt install python3-venv 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-appindicator3-0.1 gir1.2-keybinder-3.0 libkeybinder-3.0-0
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  python3.6-venv
+The following NEW packages will be installed:
+  python3-venv python3.6-venv
+0 upgraded, 2 newly installed, 0 to remove and 98 not upgraded.
+Need to get 7,392 B of archives.
+After this operation, 44.0 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python3.6-venv amd64 3.6.7-1~18.04 [6,184 B]
+Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python3-venv amd64 3.6.7-1~18.04 [1,208 B]
+Fetched 7,392 B in 1s (7,638 B/s)        
+Selecting previously unselected package python3.6-venv.
+(Reading database ... 181107 files and directories currently installed.)
+Preparing to unpack .../python3.6-venv_3.6.7-1~18.04_amd64.deb ...
+Unpacking python3.6-venv (3.6.7-1~18.04) ...
+Selecting previously unselected package python3-venv.
+Preparing to unpack .../python3-venv_3.6.7-1~18.04_amd64.deb ...
+Unpacking python3-venv (3.6.7-1~18.04) ...
+Setting up python3.6-venv (3.6.7-1~18.04) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up python3-venv (3.6.7-1~18.04) ...
+star@sunmoon:~/hbpyqt$ 
+

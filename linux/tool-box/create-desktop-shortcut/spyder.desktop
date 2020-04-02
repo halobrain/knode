@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_IN]=gnome-panel-launcher
+Name[en_IN]=spyder
+Exec=/home/jdf/anaconda3/bin/spyder
+Comment[en_IN]=spyder
+Name=spyder
+Comment=spyder
+Icon=gnome-panel-launcher

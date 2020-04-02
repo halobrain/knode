@@ -1,0 +1,22 @@
+
+To kill all the processes that you have the permission to kill, simply run the command
+
+kill -15 -1 or kill -9 -1 depending on the desired behavior (use man kill for details)
+
+To kill a specific process, say, firefox, simply run
+
+pkill firefox or killall firefox depending on the behavior you want: What's the difference between 'killall' and 'pkill'?
+
+If you want to see what processes are running use the command
+
+ps -ef
+
+If you want to look up all processes by user bob, this might help
+
+pgrep -l -u bob
+
+or
+
+ps -ef | grep bob
+
+

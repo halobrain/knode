@@ -1,0 +1,16 @@
+
+
+Under linux, you can set the PYTHONPATH environment variable in your .profile or .bashrc. You can either edit it directly from the terminal by changing to your home directory (cd ~), and then edit the file (nano .bashrc), or by opening the file with gtkedit or vim or whatever, and add:
+
+PYTHONPATH=/usr/local/lib/python2.7/site-packages:/another/path/etc
+
+If you want to test this before editing your profile, you can export this from the terminal as:
+
+export PYTHONPATH=/local/lib/python2.7/site-packages
+
+I'm assuming you're running this straight from the command line. If you're running it as a wsgi module in apache, you can add this to your syspath from your wsgi file as:
+
+import sys
+sys.path.append('/usr/local/lib/python2.7/site-packages')
+
+
