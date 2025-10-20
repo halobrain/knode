@@ -1,13 +1,12 @@
-# 📁 Folder Name
+# Backend Overview
 
-## 📘 Overview
-Briefly describe what this folder contains or its purpose.
+This folder contains the backend API logic.
 
-## 📂 Structure
+## Architecture
 
-
-
-graph TD
-    A[Start] --> B{Is GitHub awesome?}
-    B -->|Yes| C[Use Mermaid in README]
-    B -->|No| D[Learn more!]
+```mermaid
+graph LR
+    A[Client] --> B[API Gateway]
+    B --> C[Auth Service]
+    B --> D[Database Service]
+    D --> E[(PostgreSQL)]
